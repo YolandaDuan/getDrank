@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+img#logo {
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+#logo-div {
+    text-align:center;
+}
+
+a#clearSearch:link, #clearSearch:visited {
+    color: #888888;
+    font-weight: 800;
+    font-size: 14px;
+    text-decoration: none;
+    text-align:right;
+    display:inline-block;
+}
+
+a#clearSearch:hover, #clearSearch:active {
+    color: black;
+}
+
+div.searchWrapper {
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+    background: #F6F6F6;
+}
+
+div.drinkContainer {
+    background: rgba(203, 203, 203,0.4);
+    padding:10px 0 0 0;
+    display: flex; /* or inline-flex */
+    min-height: 460px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content:center;
+}
+
+div.drinkItem {
+    background: white;
+    width:320px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 0 5px 10px 5px;
+    box-shadow: 0px 1px 5px #939393;
+}
+
+@media all and (max-width: 600px) {
+    img#logo { width: 90%; }
+}
+
+#fixed-header {
+    padding-bottom: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#sorting-div {
+    display: flex;
+    align-items: center;
+    justifcy-content: center;
+}
+
+#sorting-div div {
+    flex: 1 1 auto;
+    border-right: solid 1px white;
+    color: white;
+    background: #DF314D;
+    opacity:0.9;
+    padding: 10px;
+    text-align: center;
+}
+
+.tokenize-sample { width: 300px }
+
+.input {
+    border: 0px;
+    width: 80%;
+    margin:3px;
+    background-position-y: 13px;
+}
+
+canvas {
+    width: 320px;
+    height: 400px;
+}
+
+/*********************** DRINK GENERATOR STYLING *******************/
+
+
+body {
+    font-family: Verdana;
+}
+
+#dos {
+    height: 400px;
+    width: 320px;
+    zoom: 0.7;
+}
+
+svg {
+    display:none;
+}
+
+
+/********************* END DRINK GENERATOR STYLING **********************/
+
+
+/********************* FIXED HEADER *******************/
+
+.fix-header {
+    position:fixed;
+    width: 100%;
+    top:0;
+    padding-bottom: 0px !important;
+    margin-bottom: 5px;
+}
+
+
+/***************** HEART *********************/
+
+.heartButton {
+    background: url(../images/loving-heart-shape.svg);
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+    background-size: 32px 26px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+
+.heartButton:hover {
+    background: url(../images/red-heart.svg);
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+    background-size: 32px 26px;
+}
+
+.clickedHeart {
+    background: url(../images/red-heart.svg) repeat;
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+    cursor: pointer;
+    background-size: 32px 26px;
+}
+
+.commentButton {
+    background: url(../images/speech-bubble-outline.svg);
+    display: inline-block;
+    cursor: pointer;
+    width: 32px;
+    height: 26px;
+    background-size: 32px 26px;
+    transition: background 0.5s;
+}
+
+.commentButton:hover {
+    background: url(../images/speech-balloon-note.svg);
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+    background-size: 32px 26px;
+}
+
+.likeDiv {
+    margin: 16px 0px 7px 3px;
+    text-align: left;
+}
+
+
+
+.blueHeart {
+    background: url(../images/blue-heart.svg);
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background-size: 16px 13px;
+}
+
+.optionDiv {
+    text-align: left;
+}
+
+.selectIng, .selectCom {
+    display:inline-block;
+    vertical-align: top;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    background: #444444;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    opacity: 0.5;
+}
+
+.selectDisp {
+    opacity: 0.8;
+}
+
+.active {
+    display: block !important;
+}
+
+.commentDiv, .instDiv {
+    display: none;
+}
+
+.descDiv, .instDiv {
+    margin: 0px 0px 7px 3px;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.userName {
+    color: #125688;
+    font-weight: 600;
+
+}
+
+.commentUl, .ingrUl {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
+}
+
+.commentLi, .ingrLi {
+    margin: 0px 0px 7px 3px;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.pLike {
+    width: initial;
+    line-height: inherit;
+    display: inline;
+
+}

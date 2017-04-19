@@ -1,4 +1,2 @@
-# getDrank_Jacke_with_Yoli
-Let's start to be great developers together! Make a difference for our future. &lt;3
-
-Let's finish our user account first my darling!
+# getDrank
+This app provides drink recipts for everyone who's interested to make their own special drinks.
